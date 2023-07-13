@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./download.jpg');
+    /* background-image: url('https://source.unsplash.com/1600x900/?landscape');
+     */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 23, 23);
+    min-height: 100vh;
+
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 260px;
+    
+}
+
+buttons {
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    
+    
+    
+}
+
+button {
+    cursor: pointer;
+    font-size: 50px;
+    margin-right: 8px; 
+    border: none;
+    border-radius: 15px;
+    
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#rock {
+    background-color: #bb1337;
+    width: 65px;
+    height: 80px;
+}
+#paper {
+    background-color: #10c519;
+    width: 65px;
+    height: 80px;
+}
+#scissors {
+    background-color: #3297d1;
+    width: 65px;
+    height: 80px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#player-score{
+    color:blue;
+    font-weight: bold;
+}
+ 
+#alexa-score {
+    color: red;
+    font-weight: bold;
+}
